@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const endpoint = 'https://restcountries.com/v3.1/all';
+    
 
     // Hacer la solicitud GET a la API
     fetch(endpoint)
